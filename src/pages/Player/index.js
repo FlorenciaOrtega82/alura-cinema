@@ -21,7 +21,7 @@ function Player() {
     if (!video) return <NotFound />;
     return (
         <>
-            <Banner img="player" color="#5889AE" />
+            <Banner img="player" color="#58B9AE" />
             <Titulo>
                 <h1>Player</h1>
             </Titulo>
