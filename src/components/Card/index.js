@@ -14,13 +14,13 @@ function Card({ id, capa, titulo }) {
             <Link className={styles.link} to={`/${id}`}>
                 <img src={capa} alt={titulo} className={styles.capa} />
                 <h2>{titulo}</h2>
-                <img
-                    src={icon}
-                    alt="Icono favorito"
-                    className={styles.favorito}
-                    onClick={() => agregarFavorito({ id, titulo, capa })}
-                />
             </Link>
+            <img
+                src={icon}
+                alt="Icono favorito"
+                className={styles.favorito}
+                onClick={() => agregarFavorito({ id, titulo, capa })}
+            />
         </div>
     );
 }
